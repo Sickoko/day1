@@ -1,0 +1,53 @@
+body{
+    margin: 0 auto;
+    background-color: rgba(137, 176, 223);
+}
+.container{
+    display: flex;
+    margin: 50px auto;
+}
+.left{
+    display: flex;
+    flex-direction: column;
+    margin: 0   auto;
+    background: #fff;
+    padding:10px 100px 250px 100px;
+}
+.right{
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+    background: rgb(58, 58, 193) ;
+    color: #fff;
+}
+input{
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+    color: rgb(128, 127, 131);
+    color: #fff;
+}
+select{
+    border: none;
+    font-size: 20px;
+    margin-top: 50px;
+}
+.left>h1{
+    color:  rgb(58, 58, 193);
+}
+.right>input{
+    background: rgb(58, 58, 193) ;
+    color: #fff;
+}
+.right>select{
+    background: rgb(58, 58, 193);
+    color: #fff;
+}
+.zip>input{
+    background: rgb(58, 58, 193) ;
+    color: #fff;
+}
+.code>input{
+   background:  rgb(58, 58, 193);
+   color: #fff;
+}
